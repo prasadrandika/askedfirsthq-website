@@ -1,107 +1,273 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AskedFirst — Get recommended when customers ask AI</title>
-<meta name="description" content="When customers ask ChatGPT, Gemini or Perplexity for a local business, are you named? AskedFirst checks, fixes it, and you only pay in months your score goes up.">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"AskedFirst",
- "description":"AI visibility service for local businesses: we check whether ChatGPT, Gemini and Perplexity recommend you, and fix what's missing.",
- "url":"https://askedfirsthq.com","email":"hello@askedfirsthq.com","areaServed":"US",
- "offers":[{"@type":"Offer","name":"Free AI Visibility Report","price":"0","priceCurrency":"USD"},
-           {"@type":"Offer","name":"Fix Pack","price":"49","priceCurrency":"USD"},
-           {"@type":"Offer","name":"Monthly Growth (only billed in months your score goes up)","price":"79","priceCurrency":"USD"}]}
-</script>
-<style>
-:root{--ink:#16202a;--muted:#5f6b76;--blue:#1f6feb;--soft:#f3f6f9;--line:#e3e8ee}
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);line-height:1.55}
-.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
-header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
-.logo{font-weight:800;font-size:20px}.logo span{color:var(--blue)}
-nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:15px}
-.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding:48px 0 60px}
-h1{font-size:44px;line-height:1.1;margin:0 0 16px;letter-spacing:-.5px}
-.lead{font-size:19px;color:var(--muted);margin:0 0 26px}
-.btn{display:inline-block;background:var(--blue);color:#fff;padding:14px 22px;border-radius:10px;font-weight:600;text-decoration:none;border:0;font-size:16px;cursor:pointer}
-.chat{background:var(--soft);border-radius:18px;padding:22px;font-size:15px}
-.bubble{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:10px 0}
-.q{background:var(--blue);color:#fff;margin-left:40px;border:0}
-.hit{background:#fff4f4;border-color:#f3c7c7}
-section{padding:56px 0;border-top:1px solid var(--line)}
-h2{font-size:30px;margin:0 0 10px}.sub{color:var(--muted);margin:0 0 30px}
-.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{border:1px solid var(--line);border-radius:14px;padding:22px}
-.card .n{font-weight:800;color:var(--blue);font-size:14px}
-.price{font-size:34px;font-weight:800;margin:6px 0}
-.card.main{border:2px solid var(--blue)}
-.tag{display:inline-block;background:#e8f0fe;color:var(--blue);font-size:12px;font-weight:700;border-radius:20px;padding:3px 10px}
-form{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:680px}
-input,select{padding:12px;border:1px solid var(--line);border-radius:9px;font-size:15px;width:100%}
-form .full{grid-column:1/-1}
-.faq details{border-bottom:1px solid var(--line);padding:14px 0}.faq summary{font-weight:600;cursor:pointer}
-footer{color:var(--muted);font-size:14px;padding:30px 0 50px;border-top:1px solid var(--line)}
-@media(max-width:800px){.hero,.grid3,form{grid-template-columns:1fr}h1{font-size:34px}}
-</style>
+<title>AskedFirst — Get named when customers ask AI who to hire</title>
+<meta name="description" content="Customers now ask ChatGPT, Gemini and Perplexity for a local plumber, dentist or lawyer. We check if AI names you, fix what's missing, and charge the monthly fee only when your score goes up.">
+<link rel="canonical" href="https://askedfirsthq.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AskedFirst">
+<meta property="og:title" content="AskedFirst — Get named when customers ask AI who to hire">
+<meta property="og:description" content="Customers now ask ChatGPT, Gemini and Perplexity for a local plumber, dentist or lawyer. We check if AI names you, fix what's missing, and charge the monthly fee only when your score goes up.">
+<meta property="og:url" content="https://askedfirsthq.com/">
+<meta property="og:image" content="https://askedfirsthq.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#fffaf6">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://askedfirsthq.com/#org", "name": "AskedFirst", "url": "https://askedfirsthq.com/", "logo": "https://askedfirsthq.com/icon-512.png", "email": "hello@askedfirsthq.com", "description": "AskedFirst helps local businesses get named when customers ask AI assistants like ChatGPT, Gemini and Perplexity who to hire.", "areaServed": ["US", "CA", "GB", "IE", "AU", "NZ"], "sameAs": ["https://www.youtube.com/@AskedFirstHQ"], "knowsAbout": ["AI search visibility", "Generative engine optimization", "Local SEO", "LocalBusiness schema"]}, {"@type": "WebSite", "@id": "https://askedfirsthq.com/#site", "url": "https://askedfirsthq.com/", "name": "AskedFirst", "publisher": {"@id": "https://askedfirsthq.com/#org"}}, {"@type": "WebPage", "@id": "https://askedfirsthq.com/", "url": "https://askedfirsthq.com/", "name": "AskedFirst — Get named when customers ask AI who to hire", "description": "Customers now ask ChatGPT, Gemini and Perplexity for a local plumber, dentist or lawyer. We check if AI names you, fix what's missing, and charge the monthly fee only when your score goes up.", "isPartOf": {"@id": "https://askedfirsthq.com/#site"}, "dateModified": "2026-11-26"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can you guarantee that ChatGPT will recommend my business?", "acceptedAnswer": {"@type": "Answer", "text": "No, and you should be careful with anyone who says they can. AI answers change from week to week. What we can do is measure the same 10 questions every month, fix what is missing, and show you the before and after. That is also why the monthly fee is only charged in months your score goes up."}}, {"@type": "Question", "name": "Which AI assistants do you check?", "acceptedAnswer": {"@type": "Answer", "text": "We check the assistants local customers use, such as ChatGPT, Google Gemini and Perplexity. Every report lists exactly which assistants were checked and on which date, so you can repeat any question yourself."}}, {"@type": "Question", "name": "How do you choose the 10 questions?", "acceptedAnswer": {"@type": "Answer", "text": "They are written for your trade and city and match how real customers ask: emergencies, prices, reviews, opening hours and the jobs you do most. You can see a full set on the sample report page."}}, {"@type": "Question", "name": "Do I have to change my website?", "acceptedAnswer": {"@type": "Answer", "text": "Usually a little. Most fixes are text and a small block of code that we prepare for you. You paste them in, or forward them to whoever looks after your site."}}, {"@type": "Question", "name": "Will you call me or ask for passwords?", "acceptedAnswer": {"@type": "Answer", "text": "No. Everything happens by email so you can read it when you have time. We never ask for your website or Google passwords; you or your web person make the changes."}}]}, {"@type": "Service", "name": "AI visibility for local businesses", "serviceType": "AI search optimization", "provider": {"@id": "https://askedfirsthq.com/#org"}, "areaServed": ["US", "CA", "GB", "IE", "AU", "NZ"], "offers": [{"@type": "Offer", "name": "AI Visibility Report", "price": "0", "priceCurrency": "USD", "description": "Free one-page report: 10 real customer questions asked to AI assistants, your score, competitors named and the 3 main reasons.", "url": "https://askedfirsthq.com/pricing.html"}, {"@type": "Offer", "name": "Fix Pack", "price": "49", "priceCurrency": "USD", "description": "Ready-to-paste website text, LocalBusiness schema, listing-fix list and review request messages.", "url": "https://askedfirsthq.com/pricing.html"}, {"@type": "Offer", "name": "Done For You", "price": "249", "priceCurrency": "USD", "description": "Everything in the Fix Pack, applied for you, plus listing corrections on up to 10 directories and a 30-day re-check.", "url": "https://askedfirsthq.com/pricing.html"}, {"@type": "Offer", "name": "Growth (monthly, charged only when the score goes up)", "price": "79", "priceCurrency": "USD", "description": "Monthly re-check of 10 questions, new fixes and a before/after report.", "url": "https://askedfirsthq.com/pricing.html"}, {"@type": "Offer", "name": "Pro (monthly, charged only when the score goes up)", "price": "199", "priceCurrency": "USD", "description": "25 questions, up to 2 locations, monthly local guide outreach and content.", "url": "https://askedfirsthq.com/pricing.html"}, {"@type": "Offer", "name": "Multi-City (monthly, charged only when the total score goes up)", "price": "1999", "priceCurrency": "USD", "description": "Up to 5 cities, 50 questions, Done For You setup in every city and monthly outreach.", "url": "https://askedfirsthq.com/pricing.html"}]}]}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=2026-11-26">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./" aria-label="AskedFirst home"><svg viewBox="0 0 512 512" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a3d"/><stop offset=".5" stop-color="#ff3d8b"/><stop offset="1" stop-color="#7a3dff"/></linearGradient></defs><rect width="512" height="512" rx="112" fill="url(#lg)"/><path d="M120 150h272a40 40 0 0 1 40 40v130a40 40 0 0 1-40 40H242l-70 62v-62h-52a40 40 0 0 1-40-40V190a40 40 0 0 1 40-40z" fill="#fff"/><text x="256" y="300" text-anchor="middle" font-family="Manrope,Segoe UI,Arial,sans-serif" font-weight="800" font-size="150" fill="#ff3d8b" letter-spacing="-6">1st</text></svg><span>Asked<b>First</b></span></a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav class="nav" id="nav" aria-label="Main"><a href="how-it-works.html">How it works</a><a href="sample-report.html">Sample report</a><a href="pricing.html">Pricing</a><a href="industries.html">Industries</a><a href="faq.html">FAQ</a><a class="btn" href="free-report.html">Get my free report</a></nav>
+</div></header>
+<main id="main">
+<section class="hero" aria-labelledby="h1">
+<div class="mesh" aria-hidden="true"><i></i><i></i><i></i></div><div class="grain" aria-hidden="true"></div>
 <div class="wrap">
-<header><div class="logo">Asked<span>First</span></div>
-<nav><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></nav></header>
-
-<div class="hero">
- <div>
-  <h1>Your customers now ask AI who to call. Are you the answer?</h1>
-  <p class="lead">More people ask ChatGPT, Gemini and Perplexity for a local plumber, dentist or lawyer. We check if they name you, fix what's missing, and <b>you only pay the monthly fee in months your score goes up.</b></p>
-  <a class="btn" href="#free">Get my free AI report</a>
- </div>
- <div class="chat">
-  <div class="bubble q">Who's the best plumber in Austin?</div>
-  <div class="bubble">Here are three highly rated options: Business A, Business B, Business C…</div>
-  <div class="bubble hit">Your business: <b>not mentioned</b> in 9 of 10 questions.</div>
- </div>
+  <div>
+    <h1 id="h1">When customers ask AI, be <span>the name it gives.</span></h1>
+    <p class="lede">ChatGPT, Gemini and Perplexity now answer "who's the best plumber near me?" with two or three names. We check if yours is one of them, fix what's missing, and only charge the monthly fee when your score goes up.</p>
+    <div class="actions"><a class="btn grad" href="free-report.html">Get my free AI report</a><a class="btn line" href="sample-report.html">See a real report</a></div>
+    <div class="proof"><span><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#36d399"/><path d="M4.5 8.2l2.2 2.2 4.8-4.8" stroke="#06281b" stroke-width="1.8" fill="none"/></svg>Free report in 48 hours</span><span><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#36d399"/><path d="M4.5 8.2l2.2 2.2 4.8-4.8" stroke="#06281b" stroke-width="1.8" fill="none"/></svg>No calls, no contracts</span><span><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#36d399"/><path d="M4.5 8.2l2.2 2.2 4.8-4.8" stroke="#06281b" stroke-width="1.8" fill="none"/></svg>One business per trade, per city</span></div>
+  </div>
+  <div>
+    <div class="stage" id="stage">
+      <canvas id="engine" aria-hidden="true"></canvas>
+      <div class="chat" aria-live="polite"><div class="who"><span>Customer asks AI</span><span>now</span></div><div class="qtext"><span id="qtext"></span><span class="caret"></span></div></div>
+      <div class="verdict"><div class="row"><span class="lbl">Named in 10 questions</span><span class="sc" id="sc">0<small> / 10</small></span></div><div class="dots" id="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="st miss" id="st">Your business: not mentioned</div></div>
+    </div>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Choose a business type"><button data-trade="plumber" aria-pressed="true">Plumber</button><button data-trade="dentist" aria-pressed="false">Dentist</button><button data-trade="lawyer" aria-pressed="false">Law firm</button></div>
+      <button class="toggle" id="after" aria-pressed="false"><span class="sw"></span>After AskedFirst</button>
+    </div>
+    <p class="illus">Illustration of how AI answers work. Your real score comes in your free report.</p>
+  </div>
 </div>
-
-<section id="how"><h2>How it works</h2><p class="sub">Done for you by our AI team. No calls, no meetings.</p>
- <div class="grid3">
-  <div class="card"><div class="n">STEP 1</div><h3>We ask AI 10 real questions</h3><p>The same questions your customers ask — in your city, about your services — on ChatGPT, Gemini and Perplexity.</p></div>
-  <div class="card"><div class="n">STEP 2</div><h3>You get a free score</h3><p>A 1-page report: your score out of 10, who AI names instead, and the 3 main reasons you're missing.</p></div>
-  <div class="card"><div class="n">STEP 3</div><h3>We fix it, then re-check</h3><p>Ready-to-paste website text, listing fixes and review messages. Every month we re-scan and show before/after.</p></div>
- </div>
+<div class="hero-foot"><div class="wrap"><span><b>10 real questions</b> for your trade and city</span><span><b>Every answer dated</b> and saved as proof</span><span><b>You pay monthly</b> only when the score rises</span></div></div>
 </section>
 
-<section id="pricing"><h2>Simple pricing</h2><p class="sub">No contracts. Cancel any time. <b>We work with only one business per trade in each city</b> — once a slot is taken, your competitors can't hire us.</p>
- <div class="grid3">
-  <div class="card"><span class="tag">FREE</span><div class="price">$0</div><b>AI Visibility Report</b><p>Score out of 10, competitors AI prefers, top 3 reasons.</p></div>
-  <div class="card"><span class="tag">ONE-TIME</span><div class="price">$49</div><b>Fix Pack</b><p>Website text (services, areas, FAQ), schema code, listing-fix list, review request templates.</p></div>
-  <div class="card main"><span class="tag">PAY FOR RESULTS</span><div class="price">$79<small>/mo</small></div><b>Monthly Growth</b><p>Monthly re-scan + new fixes. <b>Only billed in months your score goes up.</b></p></div>
- </div>
-</section>
+<section class="band"><div class="wrap">
+  <div class="head"><h2>The same question. Two very different answers.</h2><p>AI doesn't show ten blue links. It names a few businesses and stops. Being one of them is the whole game.</p></div>
+  <div class="ba">
+    <div class="ans before"><span class="tagline">Before: what most owners find</span>
+      <div class="q">"Who's a reliable plumber in Austin with good reviews?"</div>
+      <ol><li>Competitor A Plumbing</li><li>Competitor B Heating &amp; Air</li><li>Competitor C Services</li></ol>
+      <div class="missing">Your business isn't mentioned, even with great reviews.</div>
+      <p class="why">Usual reasons: the website never says "Austin", listings disagree on the phone number, no local guide mentions you.</p>
+    </div>
+    <div class="ans after"><span class="tagline">After the fixes: what we work toward</span>
+      <div class="q">"Who's a reliable plumber in Austin with good reviews?"</div>
+      <ol><li class="you">Your Plumbing Co. <span class="small">· family-owned, 24/7, free estimates</span></li><li>Competitor A Plumbing</li><li>Competitor B Heating &amp; Air</li></ol>
+      <p class="why">AI can now describe you, because your site, listings and reviews all say the same clear things.</p>
+    </div>
+  </div>
+  <p class="small" style="margin-top:16px">Illustrative example. Nobody can guarantee an AI answer; we measure the same questions every month and show you what changed.</p>
+</div></section>
 
-<section id="free"><h2>Get your free AI report</h2><p class="sub">We'll email it within 48 hours.</p>
- <form onsubmit="return sendReq(event)">
-  <input name="biz" placeholder="Business name" required>
-  <input name="city" placeholder="City, State" required>
-  <select name="type" required><option value="">Type of business</option><option>Plumber / HVAC / Electrician / Roofer</option><option>Dentist</option><option>Law firm</option><option>Other local business</option></select>
-  <input name="site" placeholder="Website (optional)">
-  <input class="full" name="email" type="email" placeholder="Your email" required>
-  <button class="btn full" type="submit">Send me my free report</button>
- </form>
-</section>
+<section id="demo-section"><div class="wrap">
+  <div class="head"><h2>See the 10 questions we'd ask for you</h2><p>Pick your trade, type your city. These are the real question templates behind every AskedFirst report.</p></div>
+  <div class="demo">
+    <form class="demo-form" id="demo">
+      <h3>Build your question set</h3>
+      <div style="margin-top:18px"><label for="d-trade">Your business</label><select id="d-trade" name="trade">
+        <option value="plumber">Plumber</option><option value="hvac">HVAC</option><option value="electrician">Electrician</option><option value="roofer">Roofer</option><option value="dentist">Dentist</option><option value="lawyer">Law firm</option></select></div>
+      <div style="margin-top:14px"><label for="d-city">Your city</label><input id="d-city" name="city" placeholder="e.g. Austin, TX" autocomplete="address-level2"></div>
+      <button class="btn" type="submit">Show my questions</button>
+      <p class="small" style="color:#8fa3cf;margin:14px 0 0">Want the answers too? <a href="free-report.html">Get the free report</a>.</p>
+    </form>
+    <ol class="qlist" id="qlist" aria-live="polite"></ol>
+  </div>
+</div></section>
 
-<section id="faq" class="faq"><h2>Questions</h2>
- <details><summary>Can you guarantee ChatGPT will recommend me?</summary><p>No one can — AI answers change often. That's why we measure the same questions every month and you only pay the monthly fee when your score goes up.</p></details>
- <details><summary>Do I need to change my website?</summary><p>Usually yes, a little. We give you ready-to-paste text and code, or send it to whoever manages your site.</p></details>
- <details><summary>Will you call me?</summary><p>No. Everything is by email, so you can read it when you have time.</p></details>
- <details><summary>Which AI assistants do you check?</summary><p>ChatGPT, Google Gemini and Perplexity. Each report shows which ones were used and the date.</p></details>
-</section>
+<section class="band"><div class="wrap">
+  <div class="head"><h2>What the fixes look like</h2><p>Everything AI needs to understand and recommend you, ready to paste or forward to your web person.</p></div>
+  <div class="bento">
+    <div class="tile t-a"><h3>Code that tells AI exactly who you are</h3><p>A LocalBusiness schema block with your services, hours and service area. Your web person adds it in minutes.</p>
+<pre class="code">{
+  <span class="k">"@type"</span>: <span class="s">"Plumber"</span>,
+  <span class="k">"name"</span>: <span class="s">"Your Plumbing Co."</span>,
+  <span class="k">"areaServed"</span>: [<span class="s">"Austin"</span>, <span class="s">"Round Rock"</span>, <span class="s">"Cedar Park"</span>],
+  <span class="k">"openingHours"</span>: <span class="s">"Mo-Su 00:00-23:59"</span>,
+  <span class="k">"priceRange"</span>: <span class="s">"Free estimates"</span>
+}</pre></div>
+    <div class="tile t-b"><h3>Listing fixes</h3><p>Every place your details disagree, and what to change.</p>
+      <ul class="check"><li><span>Google profile</span><span class="good">OK</span></li><li><span>Yelp phone</span><span class="bad">Old number</span></li><li><span>BBB address</span><span class="bad">Missing suite</span></li><li><span>Angi hours</span><span class="good">OK</span></li></ul></div>
+    <div class="tile t-c"><h3>Review requests</h3><p>A friendly text to send after each job.</p>
+      <div class="phone"><div class="bubble">Thanks for having us out today, Sarah! If you're happy with the work, a quick review helps a lot: [link]</div></div></div>
+    <div class="tile t-d"><h3>Answers to real questions</h3><p>FAQ text written for the questions you missed.</p>
+      <div class="faqmini"><div><b>Do you take emergency calls?</b>Yes, 24/7 across Austin and Round Rock.</div><div><b>Do you charge for estimates?</b>No. Estimates are free.</div></div></div>
+    <div class="tile t-e"><h3>Service-area page</h3><p>The towns you cover, written out so AI can match you.</p>
+      <div class="pinmap"><span style="left:8%;top:18%">Austin</span><span style="left:52%;top:10%">Round Rock</span><span style="left:30%;top:52%">Pflugerville</span><span style="left:62%;top:60%">Cedar Park</span></div></div>
+  </div>
+</div></section>
 
-<footer>© AskedFirst · hello@askedfirsthq.com · We never sell your data. Reports reflect AI answers on the date checked and are not a guarantee of future results.</footer>
-</div>
-<script>
-function sendReq(e){e.preventDefault();const f=e.target;
-const body=`Business: ${f.biz.value}\nCity: ${f.city.value}\nType: ${f.type.value}\nWebsite: ${f.site.value}\nEmail: ${f.email.value}`;
-location.href=`mailto:hello@askedfirsthq.com?subject=${encodeURIComponent('Free AI report request: '+f.biz.value)}&body=${encodeURIComponent(body)}`;return false;}
-</script>
+<section class="dark"><div class="wrap">
+  <div class="head"><h2>How it works</h2><p>Everything by email. You only do the parts that need you.</p></div>
+  <div class="steps">
+    <div class="step"><span class="num">1</span><h3>We ask AI your customers' questions</h3><p>10 questions for your trade and city, asked to AI assistants and saved with the date.</p></div>
+    <div class="step"><span class="num">2</span><h3>You get a free one-page report</h3><p>Your score out of 10, who gets named instead, and the 3 reasons you're missing.</p></div>
+    <div class="step"><span class="num">3</span><h3>We fix it, then re-check monthly</h3><p>Ready-to-use fixes, then the same 10 questions every month with a before and after.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="head"><h2>Made for the businesses people ask AI about</h2></div>
+  <div class="inds">
+    <a class="ind" href="home-services.html"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c8135f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.2L3 17.8V21h3.2l6.3-6.3a4 4 0 0 0 5.2-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></span><h3>Plumbers, HVAC, electricians, roofers</h3><p>Emergencies and big jobs often start with one question.</p><span class="qx">"Who can fix a burst pipe tonight?"</span></a>
+    <a class="ind" href="dentists.html"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c8135f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3c-2.5 0-4 2-4 4.5 0 3 1.5 4 2 7 .5 3.5 1 6.5 2.5 6.5S9.5 17 12 17s3 4 4.5 4S18.5 18 19 14.5c.5-3 2-4 2-7C21 5 19.5 3 17 3c-2 0-3 1-5 1S9 3 7 3z"/></svg></span><h3>Dental practices</h3><p>Patients ask about gentle care, insurance and Saturday hours.</p><span class="qx">"A dentist taking new patients this week?"</span></a>
+    <a class="ind" href="law-firms.html"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c8135f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 21h14M5 7h14"/><path d="M5 7l-3 7a3 3 0 0 0 6 0L5 7zM19 7l-3 7a3 3 0 0 0 6 0l-3-7z"/></svg></span><h3>Small law firms</h3><p>People ask at stressful moments and decide fast.</p><span class="qx">"Who handles car accident claims here?"</span></a>
+  </div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="head"><h2>Pricing that only grows when you do</h2><p>Start free. Fix it yourself or let us do it. After that, the monthly plans charge only in months that show progress.</p></div>
+  <div class="plangroup"><h3 class="pg">Start here: one-time</h3>
+<div class="plans p3">
+  <div class="plan">
+    <h3>AI Visibility Report</h3>
+    <div class="price">$0</div>
+    <div class="when">Free, once per business</div>
+    <ul>
+      <li>10 real customer questions for your trade and city</li>
+      <li>Your score out of 10</li>
+      <li>Who the AI names instead of you</li>
+      <li>The 3 main reasons you're missing</li>
+    </ul>
+    <a class="btn ghost" href="free-report.html">Get my free report</a>
+  </div>
+  <div class="plan">
+    <h3>Fix Pack</h3>
+    <div class="price">$49<small> one time</small></div>
+    <div class="when">You or your web person apply it · 3 business days</div>
+    <ul>
+      <li>Ready-to-paste website text: services, service areas, FAQ</li>
+      <li>Schema code so AI reads your details correctly</li>
+      <li>Every listing to correct (Google, Yelp, BBB and more)</li>
+      <li>Review-request messages for real customers</li>
+    </ul>
+    <a class="btn ghost" href="free-report.html">Start with the free report</a>
+  </div>
+  <div class="plan feat">
+    <span class="tag">Most popular</span>
+    <h3>Done For You</h3>
+    <div class="price">$249<small> one time</small></div>
+    <div class="when">We make the changes for you · 7 business days</div>
+    <ul>
+      <li>Everything in the Fix Pack</li>
+      <li>We update your Google Business Profile with you</li>
+      <li>We submit listing corrections on up to 10 directories</li>
+      <li>We prepare your new pages so your web person only clicks publish</li>
+      <li>A re-check 30 days later, included</li>
+    </ul>
+    <a class="btn grad" href="free-report.html">Start with the free report</a>
+  </div>
+</div></div>
+<div class="plangroup"><h3 class="pg">Keep growing: monthly, pay only for progress</h3>
+<div class="plans p3m">
+  <div class="plan main">
+    <span class="tag">Pay only for progress</span>
+    <h3>Growth</h3>
+    <div class="price">$79<small> / month</small></div>
+    <div class="when">Charged only in months your score goes up</div>
+    <ul>
+      <li>The same 10 questions re-checked every month</li>
+      <li>New fixes based on what changed</li>
+      <li>A one-page before / after report</li>
+      <li>Score flat or down? You pay nothing that month</li>
+    </ul>
+    <a class="btn light" href="free-report.html">Start with the free report</a>
+  </div>
+  <div class="plan main pro">
+    <span class="tag">For busy or multi-location businesses</span>
+    <h3>Pro</h3>
+    <div class="price">$199<small> / month</small></div>
+    <div class="when">Also charged only in months your score goes up</div>
+    <ul>
+      <li>25 questions, scored out of 25</li>
+      <li>Up to 2 locations or 2 service lines</li>
+      <li>We pitch you to local guides and "best of" lists every month</li>
+      <li>Monthly new FAQ answers and a service page update</li>
+      <li>Replies drafted for your new reviews</li>
+    </ul>
+    <a class="btn light" href="free-report.html">Start with the free report</a>
+  </div>
+  <div class="plan main multi">
+    <span class="tag">For growing brands</span>
+    <h3>Multi-City</h3>
+    <div class="price">$1,999<small> / month</small></div>
+    <div class="when">Charged only in months your total score goes up</div>
+    <ul>
+      <li>Up to 5 cities, 10 questions each (50 in total)</li>
+      <li>Done For You setup in every city, included</li>
+      <li>Your territory slot protected in all 5 cities</li>
+      <li>Competitor tracking: who AI names in each city, month by month</li>
+      <li>Local guide outreach and new content in every city</li>
+      <li>One monthly strategy report and replies within 4 business hours</li>
+    </ul>
+    <a class="btn light" href="contact.html?topic=multi-city">Book a Multi-City plan</a>
+  </div>
+</div></div>
+<div class="enterprise"><div><h3>More than 5 locations, or a marketing agency?</h3><p>Franchises, groups and agencies get custom plans, white-label reports and wholesale pricing.</p></div><div class="actions" style="margin:0"><a class="btn" href="partners.html">Agency partners</a><a class="btn ghost" href="contact.html?topic=enterprise">Talk to us</a></div></div>
+<div class="slot"><svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="13" fill="#ff3d8b"/><path d="M14 7a4 4 0 0 0-4 4v2H9v8h10v-8h-1v-2a4 4 0 0 0-4-4zm-2 6v-2a2 2 0 1 1 4 0v2z" fill="#fff"/></svg><div><strong>One business per trade in each city.</strong> AI usually names only a handful of businesses, so we can't help ten competitors win the same question. Once a plumber in your city works with us, other plumbers there join a waitlist.</div></div>
+</div></section>
+
+<section class="dark"><div class="wrap">
+  <div class="head"><h2>Our promises, in writing</h2></div>
+  <div class="promises">
+    <div class="promise"><svg viewBox="0 0 28 28" fill="none" stroke="#ffb27a" stroke-width="2"><rect x="3" y="5" width="22" height="15" rx="4"/><path d="M9 20v4l5-4"/><path d="M9 11h10M9 15h6"/></svg><h3>Proof with every score</h3><p>The exact questions, the AI assistants used and the date. Check any of it yourself.</p></div>
+    <div class="promise"><svg viewBox="0 0 28 28" fill="none" stroke="#ffb27a" stroke-width="2"><path d="M14 3l3.2 6.6 7.3 1-5.3 5.1 1.3 7.2L14 19.5 7.5 22.9l1.3-7.2L3.5 10.6l7.3-1z"/><path d="M5 5l18 18"/></svg><h3>No fake reviews. Ever.</h3><p>We help you ask real customers. We never write, buy or invent reviews.</p></div>
+    <div class="promise"><svg viewBox="0 0 28 28" fill="none" stroke="#ffb27a" stroke-width="2"><path d="M4 20l6-6 4 4 9-9"/><path d="M17 9h6v6"/></svg><h3>No "#1" promises</h3><p>Nobody controls AI answers. We measure, fix and report honestly.</p></div>
+    <div class="promise"><svg viewBox="0 0 28 28" fill="none" stroke="#ffb27a" stroke-width="2"><rect x="5" y="12" width="18" height="12" rx="3"/><path d="M9 12V9a5 5 0 0 1 10 0v3"/></svg><h3>Your slot is protected</h3><p>One business per trade in each city, so we never work for your direct competitor.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap split">
+  <div><h2>Questions owners ask</h2><p class="lede">Short, straight answers. More on the <a href="faq.html">FAQ page</a>.</p></div>
+  <div><details><summary>Can you guarantee that ChatGPT will recommend my business?</summary><p>No, and you should be careful with anyone who says they can. AI answers change from week to week. What we can do is measure the same 10 questions every month, fix what is missing, and show you the before and after. That is also why the monthly fee is only charged in months your score goes up.</p></details><details><summary>Which AI assistants do you check?</summary><p>We check the assistants local customers use, such as ChatGPT, Google Gemini and Perplexity. Every report lists exactly which assistants were checked and on which date, so you can repeat any question yourself.</p></details><details><summary>How do you choose the 10 questions?</summary><p>They are written for your trade and city and match how real customers ask: emergencies, prices, reviews, opening hours and the jobs you do most. You can see a full set on the sample report page.</p></details><details><summary>Do I have to change my website?</summary><p>Usually a little. Most fixes are text and a small block of code that we prepare for you. You paste them in, or forward them to whoever looks after your site.</p></details><details><summary>Will you call me or ask for passwords?</summary><p>No. Everything happens by email so you can read it when you have time. We never ask for your website or Google passwords; you or your web person make the changes.</p></details></div>
+</div></section>
+<section class="cta"><div class="wrap">
+  <div><h2>Find out if AI recommends you</h2><p>Free one-page report by email within 48 hours. No call, no card.</p></div>
+  <a class="btn light" href="free-report.html">Get my free report</a>
+</div></section>
+</main>
+<footer><div class="wrap">
+  <div class="cols">
+    <div>
+      <a class="brand" href="./"><svg viewBox="0 0 512 512" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a3d"/><stop offset=".5" stop-color="#ff3d8b"/><stop offset="1" stop-color="#7a3dff"/></linearGradient></defs><rect width="512" height="512" rx="112" fill="url(#lg)"/><path d="M120 150h272a40 40 0 0 1 40 40v130a40 40 0 0 1-40 40H242l-70 62v-62h-52a40 40 0 0 1-40-40V190a40 40 0 0 1 40-40z" fill="#fff"/><text x="256" y="300" text-anchor="middle" font-family="Manrope,Segoe UI,Arial,sans-serif" font-weight="800" font-size="150" fill="#ff3d8b" letter-spacing="-6">1st</text></svg><span>Asked<b>First</b></span></a>
+      <p>We help local businesses get named when customers ask AI assistants who to hire. Serving the US, Canada, UK, Ireland, Australia and New Zealand.</p>
+      <p><a href="mailto:hello@askedfirsthq.com">hello@askedfirsthq.com</a></p>
+    </div>
+    <div><h4>Service</h4><ul>
+      <li><a href="how-it-works.html">How it works</a></li>
+      <li><a href="sample-report.html">Sample report</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="free-report.html">Free report</a></li></ul></div>
+    <div><h4>Industries</h4><ul>
+      <li><a href="home-services.html">Plumbers, HVAC, electricians, roofers</a></li>
+      <li><a href="dentists.html">Dental practices</a></li>
+      <li><a href="law-firms.html">Small law firms</a></li></ul></div>
+    <div><h4>Company</h4><ul>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="ai-visibility-index.html">AI Visibility Index</a></li>
+      <li><a href="guides.html">Guides</a></li>
+      <li><a href="partners.html">Agency partners</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+      <li><a href="terms.html">Terms &amp; refunds</a></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 AskedFirst. AskedFirst is not affiliated with OpenAI, Google, Perplexity or any AI company.</span>
+  <span>Reports show AI answers on the date checked. They are not a guarantee of future results.</span></div>
+</div></footer>
+<script src="site.js?v=2026-11-26"></script>
 </body>
 </html>

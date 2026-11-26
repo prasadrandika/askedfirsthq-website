@@ -1,0 +1,41 @@
+User-agent: GPTBot
+Allow: /
+Disallow: /r/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /r/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /r/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /r/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /r/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /r/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /r/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /r/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /r/
+
+User-agent: *
+Allow: /
+Disallow: /r/
+
+Sitemap: https://askedfirsthq.com/sitemap.xml

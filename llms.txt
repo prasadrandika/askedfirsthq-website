@@ -1,0 +1,38 @@
+# AskedFirst
+
+> AskedFirst helps local businesses (plumbers, HVAC, electricians, roofers, dentists and small law firms) get named when customers ask AI assistants such as ChatGPT, Gemini and Perplexity who to hire. Serving the US, Canada, UK, Ireland, Australia and New Zealand. Contact: hello@askedfirsthq.com
+
+## How it works
+- We ask AI assistants 10 real customer questions for a business's trade and city and score how many times the business is named (0-10).
+- We fix what is missing: website text, LocalBusiness schema, consistent listings, review requests and local guide mentions.
+- Monthly plans are charged only in months the score goes up. One business per trade per city.
+
+## Pricing (USD)
+- AI Visibility Report: free
+- Fix Pack: $49 one time
+- Done For You: $249 one time
+- Growth: $79/month, only in months the score goes up
+- Pro: $199/month, only in months the score goes up
+- Multi-City (up to 5 cities): $1,999/month, only in months the total score goes up
+
+## Key pages
+- [AskedFirst](https://askedfirsthq.com/): Customers now ask ChatGPT, Gemini and Perplexity for a local plumber, dentist or lawyer. We check if AI names you, fix what's missing, and charge the monthly fee only when your score goes up.
+- [How AskedFirst measures and improves AI visibility](https://askedfirsthq.com/how-it-works.html): Our method: 10 real customer questions, asked to AI assistants for your trade and city, scored out of 10, fixed, and re-checked every month.
+- [Sample AI visibility report](https://askedfirsthq.com/sample-report.html): A real AskedFirst report for a plumbing company in Boise, Idaho, with the business and competitor names removed.
+- [Pricing](https://askedfirsthq.com/pricing.html): Free AI visibility report, $49 Fix Pack, $249 Done For You, and Growth, Pro and Multi-City plans charged only in months your score goes up.
+- [AI visibility for plumbers, HVAC, electricians and roofers](https://askedfirsthq.com/home-services.html): Find out if ChatGPT and other AI assistants name your plumbing, HVAC, electrical or roofing business when local customers ask.
+- [AI visibility for dental practices](https://askedfirsthq.com/dentists.html): See whether AI assistants recommend your dental practice when patients ask about new patients, insurance, emergencies and weekend hours.
+- [AI visibility for small law firms](https://askedfirsthq.com/law-firms.html): Check whether AI assistants mention your firm when people in your city ask for a personal injury, family or estate planning lawyer.
+- [Industries we work with](https://askedfirsthq.com/industries.html): AskedFirst works with home service businesses, dental practices and small law firms in the US, Canada, the UK, Ireland, Australia and New Zealand.
+- [About AskedFirst](https://askedfirsthq.com/about.html): AskedFirst is a small, remote company that helps local businesses get named by AI assistants, with honest measurement and pay-for-progress pricing.
+- [Frequently asked questions](https://askedfirsthq.com/faq.html): Answers about AI visibility reports, how we measure, pricing, the one-business-per-city rule and what you need to do.
+- [Get your free AI visibility report](https://askedfirsthq.com/free-report.html): Tell us your business name, trade and city. We'll ask AI assistants 10 real customer questions and email your score within 48 hours.
+- [Privacy policy](https://askedfirsthq.com/privacy.html): How AskedFirst collects, uses and protects your information.
+- [Terms and refunds](https://askedfirsthq.com/terms.html): The terms for AskedFirst reports, Fix Packs and Monthly Growth, including our refund policy.
+- [Guides for local businesses](https://askedfirsthq.com/guides.html): Practical guides on getting recommended by AI assistants: websites, listings and reviews.
+- [How AI assistants choose which local businesses to recommend](https://askedfirsthq.com/guide-how-ai-picks-local-businesses.html): A plain-English look at where ChatGPT, Gemini and Perplexity get their answers about local businesses, and what that means for you.
+- [A 15-minute website checklist to help AI understand your business](https://askedfirsthq.com/guide-website-checklist.html): Small changes to your website that make it easier for AI assistants to describe and recommend your local business.
+- [How to get more reviews without feeling pushy](https://askedfirsthq.com/guide-reviews-without-awkwardness.html): Simple, honest ways for local businesses to get more customer reviews, which AI assistants use when recommending businesses.
+- [AI Visibility Index: which local businesses AI recommends](https://askedfirsthq.com/ai-visibility-index.html): Our own research on how AI assistants recommend local businesses, with the exact questions, dates and method. Edition 1, November 2026.
+- [Agency partner program](https://askedfirsthq.com/partners.html): Marketing agencies and web designers can resell AskedFirst AI visibility reports and fixes under their own brand, with wholesale pricing.
+- [Contact AskedFirst](https://askedfirsthq.com/contact.html): Questions, Multi-City plans, enterprise and agency partnerships. We reply within one business day.
