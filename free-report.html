@@ -58,13 +58,11 @@ document.getElementById('req').addEventListener('submit',async function(e){
   e.preventDefault();const f=e.target,msg=document.getElementById('msg'),btn=document.getElementById('send');
   for(const el of f.querySelectorAll('[required]')){if(!el.value.trim()){el.focus();el.setAttribute('aria-invalid','true');return}}
   if(f._honey.value)return;
-  const data={name:f.name.value,email:f.email.value,business:f.business.value,trade:f.trade.value,city:f.city.value,website:f.website.value,
-    _subject:'Free AI report request: '+f.business.value,_template:'table',_captcha:'false',_replyto:f.email.value,
-    _autoresponse:'Thanks! We got your request for '+f.business.value+'. Your free AI visibility report will arrive at this address within 48 hours. - The AskedFirst team'};
+  const data={name:f.name.value,email:f.email.value,business:f.business.value,trade:f.trade.value,city:f.city.value,website:f.website.value};
   btn.disabled=true;btn.textContent='Sending...';
   try{
-    const r=await fetch('https://formsubmit.co/ajax/hello@askedfirsthq.com',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)});
-    if(!r.ok)throw new Error(r.status);
+    const r=await fetch('https://script.google.com/macros/s/AKfycbxdhi-eWa4-LOnIBDcDlBBBCPftw_Xk-27BkSmeV-4lh5NxaqbN-nK7vsK9BLzcTiGd/exec',{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(data),credentials:'omit'});
+    const j=await r.json();if(!j.ok)throw new Error(j.error||'error');
     f.reset();msg.textContent='Request received. Your report will arrive by email within 48 hours.';
   }catch(err){
     msg.innerHTML='Something went wrong sending the form. Please email your details to <a href="mailto:hello@askedfirsthq.com?subject='+encodeURIComponent('Free AI report request: '+data.business)+'">hello@askedfirsthq.com</a> and we will send your report.';
