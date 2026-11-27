@@ -15,12 +15,12 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#fffaf6">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://askedfirsthq.com/#org", "name": "AskedFirst", "url": "https://askedfirsthq.com/", "logo": "https://askedfirsthq.com/icon-512.png", "email": "hello@askedfirsthq.com", "description": "AskedFirst helps local businesses get named when customers ask AI assistants like ChatGPT, Gemini and Perplexity who to hire.", "areaServed": ["US", "CA", "GB", "IE", "AU", "NZ"], "sameAs": ["https://www.youtube.com/@AskedFirstHQ"], "knowsAbout": ["AI search visibility", "Generative engine optimization", "Local SEO", "LocalBusiness schema"]}, {"@type": "WebSite", "@id": "https://askedfirsthq.com/#site", "url": "https://askedfirsthq.com/", "name": "AskedFirst", "publisher": {"@id": "https://askedfirsthq.com/#org"}}, {"@type": "WebPage", "@id": "https://askedfirsthq.com/free-report.html", "url": "https://askedfirsthq.com/free-report.html", "name": "Get your free AI visibility report — AskedFirst", "description": "Tell us your business name, trade and city. We'll ask AI assistants 10 real customer questions and email your score within 48 hours.", "isPartOf": {"@id": "https://askedfirsthq.com/#site"}, "dateModified": "2026-11-26"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://askedfirsthq.com/"}, {"@type": "ListItem", "position": 2, "name": "Get your free AI visibility report", "item": "https://askedfirsthq.com/free-report.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://askedfirsthq.com/#org", "name": "AskedFirst", "url": "https://askedfirsthq.com/", "logo": "https://askedfirsthq.com/icon-512.png", "email": "hello@askedfirsthq.com", "description": "AskedFirst helps local businesses get named when customers ask AI assistants like ChatGPT, Gemini and Perplexity who to hire.", "areaServed": ["US", "CA", "GB", "IE", "AU", "NZ"], "sameAs": ["https://www.youtube.com/@AskedFirstHQ"], "knowsAbout": ["AI search visibility", "Generative engine optimization", "Local SEO", "LocalBusiness schema"]}, {"@type": "WebSite", "@id": "https://askedfirsthq.com/#site", "url": "https://askedfirsthq.com/", "name": "AskedFirst", "publisher": {"@id": "https://askedfirsthq.com/#org"}}, {"@type": "WebPage", "@id": "https://askedfirsthq.com/free-report.html", "url": "https://askedfirsthq.com/free-report.html", "name": "Get your free AI visibility report — AskedFirst", "description": "Tell us your business name, trade and city. We'll ask AI assistants 10 real customer questions and email your score within 48 hours.", "isPartOf": {"@id": "https://askedfirsthq.com/#site"}, "dateModified": "2026-11-27"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://askedfirsthq.com/"}, {"@type": "ListItem", "position": 2, "name": "Get your free AI visibility report", "item": "https://askedfirsthq.com/free-report.html"}]}]}</script>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon-512.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=2026-11-26">
+<link rel="stylesheet" href="style.css?v=2026-11-27">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -35,15 +35,16 @@
   <form class="formcard" id="req" novalidate>
     <div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
     <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-    <div class="full"><label for="biz">Business name</label><input id="biz" name="biz" autocomplete="organization" required></div>
-    <div><label for="type">Type of business</label><select id="type" name="type">
+    <div class="full"><label for="biz">Business name</label><input id="biz" name="business" autocomplete="organization" required></div>
+    <div><label for="type">Type of business</label><select id="type" name="trade">
       <option>Plumber</option><option>HVAC</option><option>Electrician</option><option>Roofer</option>
       <option>Dentist</option><option>Law firm</option><option>Other local business</option></select></div>
     <div><label for="city">City and state</label><input id="city" name="city" placeholder="Boise, ID" required></div>
-    <div class="full"><label for="site">Website <span class="small">(optional)</span></label><input id="site" name="site" type="url" placeholder="https://"></div>
-    <div class="full"><button class="btn" type="submit">Send my request</button>
-      <p class="hint">This opens an email to hello@askedfirsthq.com with your details filled in. Press send in your email app and we'll take it from there.</p>
-      <div class="form-msg" id="msg" role="status">Your email app should now be open with the request ready. Press send, and your report will arrive within 48 hours.</div></div>
+    <div class="full"><label for="site">Website <span class="small">(optional)</span></label><input id="site" name="website" type="url" placeholder="https://"></div>
+    <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+    <div class="full"><button class="btn" type="submit" id="send">Send my request</button>
+      <p class="hint">Your report arrives by email within 48 hours, usually much sooner.</p>
+      <div class="form-msg" id="msg" role="status"></div></div>
   </form>
   <div class="prose">
     <h2 style="margin-top:0">What happens next</h2>
@@ -53,17 +54,22 @@
   </div>
 </div></section>
 <script>
-document.getElementById('req').addEventListener('submit',function(e){
-  e.preventDefault();const f=e.target;
+document.getElementById('req').addEventListener('submit',async function(e){
+  e.preventDefault();const f=e.target,msg=document.getElementById('msg'),btn=document.getElementById('send');
   for(const el of f.querySelectorAll('[required]')){if(!el.value.trim()){el.focus();el.setAttribute('aria-invalid','true');return}}
-  const body=`Name: ${f.name.value}
-Email: ${f.email.value}
-Business: ${f.biz.value}
-Type: ${f.type.value}
-City: ${f.city.value}
-Website: ${f.site.value}`;
-  location.href='mailto:hello@askedfirsthq.com?subject='+encodeURIComponent('Free AI report request: '+f.biz.value)+'&body='+encodeURIComponent(body);
-  document.getElementById('msg').style.display='block';
+  if(f._honey.value)return;
+  const data={name:f.name.value,email:f.email.value,business:f.business.value,trade:f.trade.value,city:f.city.value,website:f.website.value,
+    _subject:'Free AI report request: '+f.business.value,_template:'table',_captcha:'false',_replyto:f.email.value,
+    _autoresponse:'Thanks! We got your request for '+f.business.value+'. Your free AI visibility report will arrive at this address within 48 hours. - The AskedFirst team'};
+  btn.disabled=true;btn.textContent='Sending...';
+  try{
+    const r=await fetch('https://formsubmit.co/ajax/hello@askedfirsthq.com',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)});
+    if(!r.ok)throw new Error(r.status);
+    f.reset();msg.textContent='Request received. Your report will arrive by email within 48 hours.';
+  }catch(err){
+    msg.innerHTML='Something went wrong sending the form. Please email your details to <a href="mailto:hello@askedfirsthq.com?subject='+encodeURIComponent('Free AI report request: '+data.business)+'">hello@askedfirsthq.com</a> and we will send your report.';
+  }
+  msg.style.display='block';btn.disabled=false;btn.textContent='Send my request';
 });
 </script>
 </main>
@@ -96,6 +102,6 @@ Website: ${f.site.value}`;
   <div class="legal"><span>© 2026 AskedFirst. AskedFirst is not affiliated with OpenAI, Google, Perplexity or any AI company.</span>
   <span>Reports show AI answers on the date checked. They are not a guarantee of future results.</span></div>
 </div></footer>
-<script src="site.js?v=2026-11-26"></script>
+<script src="site.js?v=2026-11-27"></script>
 </body>
 </html>
